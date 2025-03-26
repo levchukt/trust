@@ -27,7 +27,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 500;
-    font-family: -apple-system, 'SF Pro', BlinkMacSystemFont, sans-serif;
+    font-family: 'SF Pro',-apple-system, BlinkMacSystemFont, sans-serif;
     /* Використовуємо SF Pro */
 }
 body {

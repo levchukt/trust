@@ -79,12 +79,12 @@ body {
 .wifi,
 .battery-icon {
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ECEDEF;
 }
 
 .battery {
     font-size: 14px;
-    color: #FFFFFF;
+    color: #ECEDEF;
     margin-left: 2px;
 }
 
@@ -161,12 +161,18 @@ header h1 {
     display: flex;
     gap: 8px;
 }
-
-.visibility-icon,
+.visibility-icon{
+    font-size: 20px;
+        color: #72798B;
+}
+.content-icon,
 .grid-icon,
 .bell-icon {
     font-size: 20px;
     color: #72798B;
+    background-color: #252324;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 /* Баланс */
@@ -196,7 +202,7 @@ header h1 {
     align-items: center;
     background: none;
     border: none;
-    color: #FFFFFF;
+    color: #ECEDEF;
     font-size: 14px;
     font-weight: 400;
 }
@@ -211,7 +217,7 @@ header h1 {
     border-radius: 50%;
     margin-bottom: 8px;
     font-size: 24px;
-    color: #FFFFFF;
+    color: #ECEDEF;
 }
 
 .numbers{

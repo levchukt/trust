@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    /* Використовуємо SF Pro */
+}
+body {
+    background-color: #1B1B1D;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Обмеження для мобільних пристроїв */
+@media (min-width: 431px) {
+    body::before {
+        content: "Цей дизайн призначений лише для мобільних пристроїв (ширина до 430px).";
+        display: block;
+        text-align: center;
+        padding: 20px;
+        color: #FF5555;
+    }
+
+    .container {
+        display: none;
+    }
+}
+
+.container {
+    padding: 0 16px;
+}
+
+/* Статус-бар */
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #1B1B1D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.status-icons {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.signal,
+.wifi,
+.battery-icon {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.battery {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+
+/* Заголовок */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gear-icon,
+.dots-icon {
+    font-size: 24px;
+    color: #72798B;
+}
+
+/* Пошуковий рядок */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #242426;
+    border-radius: 28px;
+    padding: 8px 12px;
+    margin-bottom: 18px;
+    /* Зменшено відступ, щоб іконки були ближче */
+}
+
+.search-input-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.search-text {
+    color: #5F5F61;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-icon {
+    font-size: 20px;
+    color: #72798B;
+    margin-left: 4px;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #72798B;
+    margin-right: 8px;
+}
+
+/* Іконки та текст "Основний гаманець..." */
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    /* Відступ до суми */
+}
+
+.balance-text {
+    color: #A0A0A0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subheader-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.visibility-icon,
+.grid-icon,
+.bell-icon {
+    font-size: 20px;
+    color: #72798B;
+}
+
+/* Баланс */
+.balance {
+    text-align: center;
+    margin: 8px 0 20px 8px;
+    /* Зменшено відступи */
+}
+
+.balance h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* Кнопки навігації */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.action-buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.action-buttons button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #242426;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.numbers{
+    margin-top: 400px;
+    
+}
+
+.numbers input{
+    padding: 10px 30px;
+}
+
+.numbers button{
+    padding: 10px 30px;
+}

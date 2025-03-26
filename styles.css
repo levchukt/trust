@@ -187,6 +187,7 @@ header h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    padding: 0 15px;
 }
 
 .action-buttons button {
@@ -227,5 +228,5 @@ header h1 {
 }
 
 .balance h2, .num{
-    font-weight: 300;font-size: 42px;
+    font-weight: 500;font-size: 32px;
 }
